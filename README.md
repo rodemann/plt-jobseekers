@@ -28,3 +28,26 @@ This notebook handles training and evaluation across different temporal scenario
 - Saves model predictions and observed outcomes to `results/`
 
 The saved predictions and outcomes from this notebook are used in subsequent bound calculations.
+
+### Step 3: Compute and Plot Bounds
+
+[`jobseeker_tradeoff_scienceplots.ipynb`](jobseeker_tradeoff_scienceplots.ipynb)
+
+This notebook reproduces the *Change–Learn Trade-Off* figures from the paper using the saved model predictions produced in Step 2. It:
+
+- Loads `performative-sweep.zip`, which contains the prediction outputs for each sweep run
+- Parses the treatment share from the run folder names
+- Computes empirical quantities and the components of the theoretical bounds
+- Implements the bounds from Theorem 3.13 and Theorem 3.15 with  
+- Produces two figures visualizing those bounds using `SciencePlots`:
+  - `change_learn_tradeoff_thm313_science_DZ5p29_LellSqrt28.png`
+  - `change_learn_tradeoff_thm315_science_DZ5p29_LellSqrt28.png`
+
+Each plot shows, as a function of the treatment share:
+
+- The total generalization-gap bound
+- The complexity term
+- The performative term
+- The sampling term
+
+All curves are rendered as lines with point markers .
