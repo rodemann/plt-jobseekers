@@ -2,7 +2,7 @@
 
 ## Data Availability
 
-The data used in this study are not publicly available due to their sensitive nature. Access can be requested through the Research Data Centre (FDZ) of the Institute for Employment Research (IAB). We provide all preprocessing and analysis code to enable replication for authorized users.
+The data used in this study are not publicly available due to their sensitive nature. Access can be requested through the [Research Data Centre (FDZ) of the Institute for Employment Research (IAB)](https://fdz.iab.de/en/startseite-en/). We provide all preprocessing and analysis code to enable replication for authorized users.
 
 
 ### Step 1: Cohort Construction
@@ -57,5 +57,6 @@ Each plot shows, as a function of the treatment share:
 - The sampling term
 
 All curves are rendered as lines with point markers .
+
 
 
