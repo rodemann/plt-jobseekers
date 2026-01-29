@@ -31,7 +31,7 @@ The saved predictions and outcomes from this notebook are used in subsequent bou
 
 ### Step 3: Compute and Plot Bounds
 
-[`jobseeker_tradeoff_scienceplots.ipynb`](jobseeker_tradeoff_scienceplots.ipynb)
+[`jobseeker_tradeoff_scienceplots_markers_linestyles.ipynb`](jobseeker_tradeoff_scienceplots_markers_linestyles.ipynb)
 
 This notebook reproduces the *Change–Learn Trade-Off* figures from the paper using the saved model predictions produced in Step 2. It:
 
@@ -51,3 +51,4 @@ Each plot shows, as a function of the treatment share:
 - The sampling term
 
 All curves are rendered as lines with point markers .
+
