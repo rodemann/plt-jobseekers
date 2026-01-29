@@ -29,7 +29,13 @@ This notebook handles training and evaluation across different temporal scenario
 
 The saved predictions and outcomes from this notebook are used in subsequent bound calculations.
 
-### Step 3: Compute and Plot Bounds
+### Step 3: Compute Generalization Gap on Historical Data
+
+[`performative_bounds_notebook.ipynb`](performative_bounds_notebook.ipynb)
+
+This notebook computes the generalization gap bound from Corollary as described in Appendix C.2
+
+### Step 4: Compute and Plot Bounds on Semi-Simulated Data
 
 [`jobseeker_tradeoff_scienceplots_markers_linestyles.ipynb`](jobseeker_tradeoff_scienceplots_markers_linestyles.ipynb)
 
@@ -51,4 +57,5 @@ Each plot shows, as a function of the treatment share:
 - The sampling term
 
 All curves are rendered as lines with point markers .
+
 
